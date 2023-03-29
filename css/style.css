@@ -123,6 +123,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    color: var(--clr-dark);
 }
 
 .section__subtitle--work {
