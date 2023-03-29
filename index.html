@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Habtamu Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h3>&lt;devhabtew&gt;</h3>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Habtamu</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/habte_edited.jpg" alt="a picture of Habtamu" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Responsive web dev</h3>
+                    <p>I create responsive websites using HTML, CSS, and JavaScript with a mobile-first approach. I focus on building visually appealing websites that are easy to navigate, with attention to detail and optimal user experience.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>One of unique thing I build is e-commerce website with front end languages.  I concentrate on creating visually appealing websites that are simple to browse and enhance the user experience using a mobile-first strategy. I pay close attention to detail to make sure that the e-commerce website satisfies the particular requirements of each customer.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Mentoring</h3>
+                    <p>I offer mentoring services for beginner front-end developers, providing guidance on effective learning strategies, obstacle resolution, and recommended resources. My goal is to empower aspiring developers to achieve their goals and develop the skills needed to succeed in the field.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Front end developer</p>
+           
+           <div class="about-me__body">
+               <p>I am a young software enthusiast who grew up in Ethiopia . growing up I didn't had any knowledge of computer programming. As a child, I was always curious about building stuff and its inner workings,  but  I was introduced to programming that I discovered my true passion.</p>
+               <p>From the moment I started coding, I fell in love with the process of building software from scratch and bringing my ideas to life. As a self-taught front-end web developer, I have been able to hone my skills and create websites that are both aesthetically pleasing and user-friendly.</p>
+               <p>I'm a second-year software engineering student at Bangalore's Jain College of Engineering. My studies have improved my knowledge of the principles behind software development and programming, as well as my proficiency with a range of computer languages and tools.</p>
+           </div>
+           
+           <img src="img/habte_edited.jpg" alt="habtamu again with same pic" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <a href="https://github.com/habtew/calculator" class="portfolio__item" target="_blank">
+                    <img src="img/calc.jpeg" alt="" class="portfolio__img">
+                </a>
+                                
+                <a href="https://github.com/habtew/FAQ-card" class="portfolio__item" target="_blank">
+                    <img src="img/faq.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <a href="https://github.com/habtew/library" class="portfolio__item" target="_blank">
+                    <img src="img/libr.jpeg" alt="" class="portfolio__img">
+                </a>
+                                
+                <a href="https://github.com/habtew/Interactive-rating-component" class="portfolio__item" target="_blank">
+                    <img src="img/rating.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <a href="https://github.com/habtew/todo-app" class="portfolio__item" target="_blank">
+                    <img src="img/todo.jpeg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:habtamuwolde96@gmail.com" class="footer__link">habtamuwolde96@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/habtew" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/habtamu-gebre-1949171b5/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/habtew16" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/habtew" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
